@@ -6,6 +6,7 @@ var CardNode = preload("res://Card.tscn")
 
 func _ready():
 	var newCard = CardNode.instance();
+	
 	self.add_child(newCard)
 
 
